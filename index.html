@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-container">
+            <!-- header section -->
+            <div class="head-section">
+                <h1>DevDetective</h1>
+                <button class="themeBtn">
+                    <p class="themeText">DARK</p>
+                    <img src="./images/moon-icon.svg" class="themeIcon" alt="">
+                </button>
+            </div>
+
+            <!-- input search section -->
+            <div class="searchBar">
+                
+                <input type="search" class="input" data-inputSearch placeholder="Search a GitHub username...">
+                
+                <p class="no-results"> no result found</p>
+                
+                <button class="submit-btn" type="submit">Search</button>
+            </div>
+            <!-- main container section -->
+            <div class="profile-container">
+                <img src="" loading="lazy" height="117px" width="117px" class="profile-img" >
+                
+                <div class="profile-content">
+
+                    <div class="user-profile">
+                        <div class="user-name">
+                            <h2 class="name"></h2>
+                            <a href="#" class="userLink"></a>
+                        </div>
+                        <p class="joined-date"></p>
+                    </div>
+                    <div class="bio"></div>
+                    <!-- Follower Status -->
+                    <div class="user-details">
+                        <div class="user-stats">
+                            <p class="stat-title">Repos</p>
+                            <p class="repo stats-value"></p>
+                        </div>
+                        <div class="user-stats">
+                            <p class="stat-title">Followers</p>
+                            <p class="followers stats-value"></p>
+                        </div>
+                        <div class="user-stats">
+                            <p class="stat-title">Following</p>
+                            <p class="following stats-value"></p>
+                        </div>
+                    </div>
+
+                    <div class="footer-container">
+                        <div class="footer-details">
+                           <div class="profile-info">
+                            <img src="./images/location-icon.svg" class="footer-icon" alt="">
+                            <p class="location"></p>
+
+                           </div>
+                           <div class="profile-info">
+                            <img src="./images/twitter-icon.svg" class="footer-icon" alt="">
+                            <a href="" class="twitter-Link"></a>
+
+                        </div>
+                            
+                        </div>
+
+
+                        <div class="footer-details">
+                            <div class="profile-info">
+                                <img src="./images/website-icon.svg" class="footer-icon" alt="">
+                                <a href="#" class="blog-Link"></a>
+                            </div>
+                            
+                             <div class="profile-info">
+                                <img src="./images/company-icon.svg" class="footer-icon" alt="">
+                                <p class="company"></p>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4a4cfc16af.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
